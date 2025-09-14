@@ -79,7 +79,6 @@ public class Board implements Iterable<Tile> {
     public void addTile(Tile t) {
         values[t.col()][t.row()] = t;
     }
-
     /** Places the Tile TILE at column COL, row ROW where COL and ROW are
      * treated as coordinates with respect to the current viewPerspective.
      *
